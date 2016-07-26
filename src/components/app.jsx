@@ -26,57 +26,57 @@ class App extends Component{
         },
         {
           id: 2,
-          text: 'What is your name?',
+          text: 'Who is your favorite comic book character?',
           choices: [
             {
               id: 'a',
-              text: 'Thor'
+              text: 'Captain Stretchy Socks'
             },
             { id: 'b',
-              text: 'George'
+              text: 'Superman'
             },
             {
               id: 'c',
-              text: 'Chris'
+              text: 'Duff Man'
             }    
           ],
           correct: 'b'
         },
         {
           id: 3,
-          text: 'What is your name?',
+          text: 'Where do you work?',
           choices: [
             {
               id: 'a',
-              text: 'Thor'
+              text: 'Halberd Technologies, LLC'
             },
             { id: 'b',
-              text: 'George'
+              text: 'S.H.I.E.L.D.'
             },
             {
               id: 'c',
-              text: 'Chris'
+              text: 'Apple'
             }    
           ],
-          correct: 'b'
+          correct: 'a'
         },
         {
           id: 4,
-          text: 'What is your name?',
+          text: 'Where did you attend High School?',
           choices: [
             {
               id: 'a',
-              text: 'Thor'
+              text: 'Ridgemont High'
             },
             { id: 'b',
-              text: 'George'
+              text: 'Rydell High'
             },
             {
               id: 'c',
-              text: 'Chris'
+              text: 'New Bedford High'
             }    
           ],
-          correct: 'b'
+          correct: 'c'
         },
       ]    
     }
