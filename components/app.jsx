@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-import QuestionList from './quiz/questionList.jsx'
+import questionList from './quiz/questionList.jsx'
 
 class App extends Component{
   constructor(props){
