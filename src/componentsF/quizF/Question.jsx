@@ -37,4 +37,4 @@ class Question extends Component{
   }
 }
 
-export default question
+export default Question
