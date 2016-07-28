@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 
-class question extends Component{
+class Question extends Component{
   onChange(e){
     e.preventDefault();
     const {setCurrent, setScore, question} = this.props;

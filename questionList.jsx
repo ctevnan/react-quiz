@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-import question from './question.jsx';
+import Question from './Question.jsx';
 
-class questionList extends Component{
+class QuestionList extends Component{
   render(){
     return(
       <div className="questions">
         {
           this.props.questions.map(question => {
             if(question.id == this.props.current){
-              return <question question={question} key={question.id} {...this.props}/>
+              return <Question question={question} key={question.id} {...this.props}/>
             }
           })
         }  
@@ -18,4 +18,4 @@ class questionList extends Component{
   }
 }
 
-export default questionList
+export default QuestionList
